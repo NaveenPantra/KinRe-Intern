@@ -2,9 +2,13 @@
 
 alert("This is Mobile first allpication");
 alert("This is the snapshot of the application development on the timeline... NOT THE FULL VERSION");
+alert("Please open the website on the mobile for experience...")
 let width = window.innerWidth;
-if (width > 448 || width < 356)
-    document.getElementsByTagName(`html`).display = `none`
+console.log(width)
+if (width > 448 || width < 356) {
+    let ele = document.getElementsByTagName(`html`)[0].classList.add(`hide`);
+    console.log(`Webpage not displayed due to screen width...`);
+}
 
 (function() {
 
