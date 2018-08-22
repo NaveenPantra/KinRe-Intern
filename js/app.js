@@ -1,5 +1,10 @@
 // Design Pattern: MVC
 
+alert("This is Mobile first allpication");
+alert("This is the snapshot of the application development on the timeline... NOT THE FULL VERSION");
+let width = window.innerWidth;
+if (width > 448 || width < 356)
+    document.getElementsByTagName(`html`).display = `none`
 
 (function() {
 
