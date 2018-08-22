@@ -1,0 +1,12 @@
+B Profile:
+      business name,logo
+      ph no
+      user name
+      started year
+      Address(Area,city,state)
+      Gst
+      Vendor Type,Description
+      Products Details (images or Video);
+      B Locations(Area,city,state)
+      Profile viewed
+      No of Buyers

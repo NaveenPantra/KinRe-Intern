@@ -1,0 +1,96 @@
+.navigation {
+    background-color: var(--color-Grey-dark-1);
+}
+
+.nav {
+
+    &-list {
+        list-style: none;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    &-item {
+
+        padding: 1.5rem;
+        color: var(--color-Grey-light-1);
+        position: relative;
+        flex: 1;
+        align-self: stretch;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+
+        &::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 100%;
+            width: 3px;
+            background-image: linear-gradient(to right bottom, var(--color-primary), var(--color-primary-dark));
+            transform: scaleX(0);
+            transform-origin: right;
+            transition: transform 0.2s, width 0.4s cubic-bezier(1, 0, 0, 1) 0.2s;
+        }
+
+        &:hover::before, &--active::before {
+            transform: scaleX(1);
+            width: 100%;
+        }
+
+        &-content {
+            z-index: 1;
+        }
+
+        &--badge {
+            z-index: 2;
+            font-size: 0.8rem;
+            height: 1.75rem;
+            width: 1.75rem;
+            border-radius: 100px;
+            background-color: var(--color-primary);
+            color: #fff;
+            position: absolute;
+            top: 12%;
+            right: 43%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            @media only screen and (max-width: 600px) {
+                top: 17%;
+                right: 30%;
+            }
+        }
+
+        &-des {
+            z-index: 1;
+            text-transform: uppercase;
+            padding: 0;
+            margin: 0;
+            display: inline;
+            font-size: 1.2rem;
+
+            @media only screen and (max-width: 800px) {
+                display: none;
+            }
+        }
+    }
+
+    &-icon {
+        z-index: 1;
+        font-size: 2rem;
+    }
+}
+
+
+

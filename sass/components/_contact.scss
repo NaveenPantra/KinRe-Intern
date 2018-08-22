@@ -1,0 +1,150 @@
+.contact {
+
+    &__card {
+        width: 45%;
+        background-color: var(--color-Grey-light-1);
+        padding: 1rem;
+        border-radius: 9px;
+        margin: 0 auto;
+        margin-bottom: 2rem;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+
+        @media only screen and (max-width: 900px) {
+            width: 90%;
+        }
+    }
+
+    &__overview {
+        border-bottom: var(--line-light);
+        padding-bottom: 0.3rem;
+        display: flex;
+        align-items: center;
+        flex: 1;
+
+        &-details {
+            margin-right: auto;
+            border-right: var(--line-dark);
+            display: flex;
+            align-items: center;
+            flex: 1;
+        }
+
+        &-options {
+            align-self: stretch;
+            width: 5rem;
+            font-size: 2.4rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+        }
+    }
+
+    &__image {
+        & figure {
+            margin: 0;
+            padding: 0;
+            shape-outside: circle(50% at 50% 50%);
+            margin-right: 2rem;
+        }
+    }
+
+    &__img {
+        height: 6rem;
+        width: 6rem;
+        border-radius: 50%;
+    }
+
+
+    &__details {
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    &__name {
+        margin: 0.5rem;
+    }
+
+    &__hotel {
+        margin: 0.5rem;
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        align-self: flex-start;
+        justify-items: center;
+
+        &-logo {
+            margin: 0.1rem 0.5rem 0rem 0rem;
+        }
+
+        &-name {
+            display: inline;
+            margin: 0;
+            padding: 0;
+        }
+    }
+
+    &__number {
+        margin: 0rem 1rem 1rem 0.5rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        align-self: flex-start;
+    }
+
+    &__option {
+        font-size: 1.1rem;
+        text-align: center;
+        cursor: pointer;
+        transition: all 0.3s;
+        padding: 0.3rem;
+
+        &--more-contact {
+            font-size: 0.9rem;
+            text-decoration: none;
+            color: var(--color-Grey-dark-2);
+            text-transform: uppercase;
+            outline: none;
+            // transform: scale(1);
+            transition: all 0.3s;
+
+            &:hover .contact__option--more-contact-arrow {
+                margin-left: 1rem;    
+            }
+
+            &-arrow {
+                transition: all 0.3s;
+            }
+        }
+    }
+
+
+    // HIDE ALWAYS SHOULD BE LAST !IMPORTANT
+     &__hide {
+        display: none;
+        visibility: hidden;
+    }
+}
+
+
+.phone {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+
+    &__icon {
+        margin: 0.2rem .5rem 0 0;
+    }
+
+    &__number {
+        
+    }
+
+}

@@ -1,0 +1,26 @@
+.business {
+
+    &__contacts {
+
+        margin-top: 5rem;
+
+        display: flex;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+}
+
+.section {
+
+    &__contacts {
+        width: 100%;
+        padding: 1rem 0;
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: space-around;
+    }
+}

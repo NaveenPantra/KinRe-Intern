@@ -1,0 +1,98 @@
+.btn {
+    outline: none;
+    background-color: transparent;
+    border: none;
+}
+
+
+.profile__button {
+    position: fixed;
+    right: 2.5rem;
+    bottom: 4rem;
+    z-index: 1;
+    padding: 0rem;
+
+    &-place {
+        color: var(--color-Grey-light-1);
+        background-color: var(--color-primary);
+        padding: 0.7rem;
+        border: none;
+        border-radius: 50%;    
+    }
+}
+
+// .profile__button-place {
+//     color: var(--color-Grey-light-1);
+//     background-color: var(--color-primary);
+//     padding: 0.7rem;
+//     border: none;
+//     border-radius: 50%;
+// }
+
+.button {
+
+    background-color: transparent;
+    font-family: 'montserrat';
+    border: none;
+    box-shadow: none;
+    text-transform: capitalize;
+    outline: none;
+    margin: 0 auto;
+    font-size: 1.7rem;
+    transform: scale(1);
+    transition: all 0.3s;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    & ion-icon {
+        // margin-top: 0.2rem;
+        margin-left: 0.5rem;
+        font-size: 1.7rem;
+    }
+
+    &:hover {
+        transform: scale(1.1);
+    }
+
+    &:active {
+        transform: scale(0.8);
+    }
+
+    &-promote {
+        background-color: transparent;
+        padding: 0.2rem 1.5rem;
+        font-size: 1.7rem;
+        font-family: 'montserrat';
+        font-weight: 500;
+        border: 1px solid;
+        border-radius: 10px;
+        opacity: .7;
+        outline: none;
+        // width: 86%;
+        text-align: center;
+        margin: 0 auto;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+
+
+        & img {
+            width: 1rem;
+            margin-left: 1rem;
+        }
+    }
+
+    &-edit {
+        border: 1px solid;
+        border-radius: 10px;
+        padding: 0.2rem 1.5rem;
+        font-size: 1.7rem;
+        font-weight: 500;
+        opacity: 0.7;
+    }
+}
+

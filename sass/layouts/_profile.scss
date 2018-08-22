@@ -1,0 +1,15 @@
+.profile {
+    margin: 6rem 0.5rem 1rem;
+}
+
+.section__profile {
+    width: 100%;
+
+    // flex: 0 1 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+
+}

@@ -1,0 +1,34 @@
+@import "base/base";
+
+
+@import "animation/animation";
+
+
+@import "components/nav";
+@import "components/order";
+@import "components/hotel";
+@import "components/options";
+@import "components/more";
+@import "components/typograpy";
+@import "components/proButton";
+@import "components/contact";
+// @import "components/profile";
+
+@import "components/profile";
+// @import "components/"
+
+
+@import "layouts/main";
+@import "layouts/header";
+@import "layouts/Sorder";
+@import "layouts/Smore";
+@import "layouts/Bcontacts";
+@import "layouts/acceptOrders";
+@import "layouts/_messages";
+@import "layouts/profile";
+
+
+
+// For hiding purpose !!!Important
+@import "components/hide";
+
