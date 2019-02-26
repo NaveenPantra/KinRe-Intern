@@ -13,7 +13,7 @@ This web application is developed with out using any third party libraries even 
 ##### Developed Screen Shots
 ###### KinRe Vendor Home
 ![alt KinRe-Vendor-Home](./Design_SnapShot/001_KinRe-Vendor-Home-min.png)
-<img src="./Design_SnapShot/001_KinRe-Vendor-Home-min.png" width="177px" height="360px">
+<img src="./Design_SnapShot/001_KinRe-Vendor-Home-min.png" width="259px" height="527px">
  
  This tab shows the requests raised by the restaurant's based on their requirements, so vendors can accept the request and trade the goods.
  
