@@ -1,4 +1,5 @@
 #KinRe Vendor Application
+###### Not the full version.
 
 ### This are the developed screenshots everything from scratch.
 
